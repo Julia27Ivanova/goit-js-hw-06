@@ -18,8 +18,8 @@ const list = document.querySelector('.gallery');
 
 const markup = images
   .map(
-    ({ url, alt }) => `<li><h1>${alt}</h1><img class="image" width= "500px"
-    height= "300px" src="${url}" alt="${alt}" /></li>`
+    ({ url }) => `<li><h1></h1><img class="image" width= "500px"
+    height= "300px" src="${url}" /></li>`
   )
   .join('');
 
